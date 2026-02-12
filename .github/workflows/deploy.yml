@@ -52,4 +52,4 @@ jobs:
       - name: 🌐 Get website URL
         run: |
           echo "✅ Site deployed to:"
-          echo "http://${{ secrets.AWS_S3_BUCKET }}.s3-website-us-east-1.amazonaws.com"
+          echo "http://${{secrets.AWS_S3_BUCKET}}.s3-website-us-east-1.amazonaws.com"
